@@ -1,0 +1,155 @@
+ @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("../images/images/bg800bulbs.jpg"); 
+			background-size:cover;
+			background-position:left; 
+			background-repeat: no-repeat; 
+            color: #333;
+            line-height: 1.6;
+        }
+
+.content {
+    background-color: white; /* White background for the content */
+    margin: 50px auto; /* Center content with some margin from the top */
+    padding: 1em; /* Add padding inside the content */
+    max-width: 800px; 
+	border-radius: 50px;
+}
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2em 1em;
+        }
+        section {
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+       	.s1h2-1 {
+            color: black;
+			font-family: "volkhov";
+			text-align: center;
+            border-bottom: 3px dotted #2c6e49;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+            font-size: 1.8rem;
+        }
+
+.s1p1{
+	color: black;
+	font-family:"oswald";
+	text-align: center;
+	font-size: 1.2rem;
+	
+	
+}
+        .image-container {
+            margin: 1em 0em;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+.Solar_pv_solutions{
+	float: right;
+	margin-left: 1em;
+}
+
+.ssh{
+	font-family: "volkhov";
+	border-bottom:solid
+}
+
+.ssp{
+	font-family: "oswald";
+	margin-bottom: 2em;
+	text-align: left;
+}
+
+.geothermal_energy{
+	float: left;
+	margin-right: 1em
+}
+
+.geh{
+	font-family: "volkhov";
+	border-bottom: solid;
+}
+
+.gep{
+	font-family: "oswald";
+	margin-bottom: 2em;
+	text-align: left;
+}
+	
+.wind_turbines{
+	float: right;
+	margin-left: 1em
+}
+
+.wth{
+	font-family: "volkhov";
+	border-bottom: solid;
+}
+
+.wtp{
+	font-family: "oswald";
+	margin-bottom: 4em;
+	text-align: left;
+}
+   article {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        article img {
+            width: 250px;
+            height: auto;
+}
+
+.button_one{
+	display: flex;
+	justify-content: center;
+	border: none;
+	padding: 1em;
+	margin-bottom: 10em
+}
+
+button{
+	margin-left: 1em;
+	padding: 2px 25px;
+	background-color: white;
+	border: solid;
+	border-radius: 45px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.button_two{
+	display: flex;
+	justify-content: center;
+	border: none;
+	padding: 1em;
+	margin-bottom: 10em
+}
+
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background: #2c6e49;
+            color: white;
+            font-size: 0.5rem;
+        }
+        footer nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.5em;
+        }
